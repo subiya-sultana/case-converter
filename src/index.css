@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div .App{
+  min-height: 100vh;
+}
+div#wrapper{
+  overflow: hidden;
+  min-height: 100vh;
+  /* background-color: #eee; */
+}
+#wrapper textarea{
+  resize: none;
+  white-space: pre;
+}
+#wrapper textarea::-ms-value{
+  color: blueviolet;
+}
+p#myHeading{
+  font-family: monospace, Geneva, Tahoma, sans-serif;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font: 16px Segoe UI;
 }
