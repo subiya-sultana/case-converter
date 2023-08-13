@@ -110,34 +110,34 @@ export default function MainComponent() {
     let newText = text.split(/[ ]+/);
     setText(newText.join(" "));
   };
-  // function to find and replace with in text
-  const toFindAndReplace = () => {
-    alert("xyz");
-  };
-  // function to convert snake_Case to kebab-case
-  const snakeCaseToKebabCase = () => {
-    alert("works");
-  };
-  // function to convert snake_Case to camelCase
-  const snakeCaseToCamelCase = () => {
-    alert("works");
-  };
-  // function to convert kebab-Case to snake_Case
-  const kebabCaseToSnakeCase = () => {
-    alert("works");
-  };
-  // function to convert kebab-Case to snake_Case
-  const kebabCaseToCamelCase = () => {
-    alert("works");
-  };
-  // function to convert camelCase to snake_Case
-  const camelCaseToSnakeCase = () => {
-    alert("works");
-  };
-  // function to convert camelCase to kebab-Case
-  const camelCaseToKebabCase = () => {
-    alert("works");
-  };
+  // // function to find and replace with in text
+  // const toFindAndReplace = () => {
+  //   alert("works");
+  // };
+  // // function to convert snake_Case to kebab-case
+  // const snakeCaseToKebabCase = () => {
+  //   alert("works");
+  // };
+  // // function to convert snake_Case to camelCase
+  // const snakeCaseToCamelCase = () => {
+  //   alert("works");
+  // };
+  // // function to convert kebab-Case to snake_Case
+  // const kebabCaseToSnakeCase = () => {
+  //   alert("works");
+  // };
+  // // function to convert kebab-Case to snake_Case
+  // const kebabCaseToCamelCase = () => {
+  //   alert("works");
+  // };
+  // // function to convert camelCase to snake_Case
+  // const camelCaseToSnakeCase = () => {
+  //   alert("works");
+  // };
+  // // function to convert camelCase to kebab-Case
+  // const camelCaseToKebabCase = () => {
+  //   alert("works");
+  // };
 
   return (
     <div id="wrapper" className={`container-fluid bg-light-subtle`}>
@@ -222,7 +222,7 @@ export default function MainComponent() {
           >
             Remove extra spaces
           </button>
-          <button
+          {/* <button
             type="button"
             onClick={toFindAndReplace}
             className="btn btn-secondary m-1"
@@ -270,7 +270,7 @@ export default function MainComponent() {
             className="btn btn-secondary m-1"
           >
             camelCase to kebab-case
-          </button>
+          </button> */}
         </div>
       </div>
       <div id="textDetails" className=" w-75 m-auto text-start px-1">
